@@ -1,0 +1,215 @@
+* {
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  color: azure;
+}
+
+body {
+  background-image: url('OIP.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h2 {
+  color: white;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+
+}
+
+.inr {
+  height: 200px;
+
+}
+
+
+.amount p {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+.atm123 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.atm {
+  background-color: aliceblue;
+  width: 100px;
+  height: 30px;
+  color: black;
+  border: 3px solid blue;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  font-weight: bolder;
+  font-size: larger;
+  border-right-color: aliceblue;
+}
+
+.codeinp {
+  background-color: aliceblue;
+  width: 100px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+  height: 30px;
+  color: black;
+  border: 3px solid blue;
+  border-left-color: aliceblue;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.select-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+
+
+#from {
+  margin-left: 15px;
+  height: 30px;
+  margin-top: 15px;
+  background-color: rgb(15, 34, 34);
+  border: 2px solid blue;
+  border-radius: 5px;
+  font-weight: bolder;
+  color: azure;
+}
+
+#to {
+  margin-left: 15px;
+  height: 30px;
+  margin-top: 15px;
+  background-color: rgb(15, 34, 34);
+  border: 2px solid blue;
+  border-radius: 5px;
+  color: azure;
+  font-weight: bolder;
+}
+
+@media screen and (min-width : 660px) {
+  .dropdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .fromimg {
+
+    width: 100px;
+    margin-top: 30px;
+
+  }
+
+  .toimg {
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+
+  #from {
+    width: 100px;
+    margin-top: 50px;
+    margin-right: 35px;
+  }
+
+  #to {
+    width: 100px;
+    margin-top: 50px;
+
+  }
+
+  .arrow {
+    width: 70px;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width : 660px) {
+  .arrow {
+    width: 70px;
+    height: 50px;
+    margin: 20px;
+  }
+
+  .scf {
+    margin-top: 15px;
+  }
+
+  .sc {
+    margin-bottom: 15px;
+  }
+}
+
+.msg input {
+  background-color: aliceblue;
+  width: 200px;
+  height: 30px;
+  color: black;
+  border: 3px solid rgb(25, 225, 65);
+  padding: 5px;
+  margin-top: 7px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 15px;
+}
+
+.container button {
+  margin-bottom: 30px;
+  background-color: red;
+  height: 30px;
+  width: 150px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(252, 252, 252);
+  padding: 5px;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+.footer {
+  margin: 10px;
+}
+
+.sm {
+  color: white;
+  margin-top: 10px;
+}
+
+.twitter {
+  margin: 5px;
+}
+
+.instagram {
+
+  margin: 5px;
+}
+
+.linkedin {
+
+  margin: 5px;
+}
+
+.github {
+
+  margin: 5px;
+}
