@@ -7,17 +7,17 @@
   text-align: center;
   color: azure;
 }
-
-body {
-  background-image: url('OIP.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+        body {
+          background-image: url('OIP.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+        }
 
 .h2 {
   color: white;
   font-size: 40px;
-  margin-top: 20px;
+  margin-top: 2%;
   margin-bottom: 20px;
   font-weight: bolder;
 
@@ -141,6 +141,7 @@ body {
     margin-left: 40px;
     margin-right: 40px;
   }
+
 }
 
 @media screen and (max-width : 660px) {
